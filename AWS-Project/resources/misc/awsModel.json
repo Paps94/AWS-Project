@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Art Piece",
+  "type": "object",
+  "properties": {
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "artist": { "type": "string" },
+    "no_of_past_owners": { "type": "integer" },
+    "type": {
+        "type": "string",
+        "enum": ["physical", "digital"]
+    },
+    "for_sale": {
+        "type": "integer",
+        "enum": [0, 1]
+    },
+    "creation_date": { 
+        "type": "string",
+        "format": "date"
+    },
+    "value": { "type": "number" },
+    "user_id": { "type": "integer" }
+  },
+  "required": [
+      "title",
+      "description",
+      "artist",
+      "no_of_past_owners",
+      "type",
+      "for_sale",
+      "creation_date",
+      "value",
+      "user_id"
+  ]
+}
