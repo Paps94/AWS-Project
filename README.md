@@ -4,6 +4,9 @@ A combination of Laravel and AWS services in order to test my ability to link di
 **Note before we get started**
 In order not to waste anyone's time I need to mention from now that I was not able to solve the test as guided. What I mean by that is that I was not able to use the LAMBDA function to perform the validation, store the db records and return error messages to the front-end. If this is not acceptable then you can stop reading and I thank you for your consideration. Having said that and assuming you are still reading I did do the validation the Laravel way since I was not able to do it the AWS way.
 
+**Project Link**
+http://testapp-env.eba-tj2brtt5.eu-west-2.elasticbeanstalk.com/
+
 ## The requirements
 ● Please keep notes as you go along and submit them with your solution [✓ - This read me file will be that together with comments in the code]
 ● Please do not use any pre-built templates although the use of any framework is allowed [✓ - Was considering between a pure PHP or the use of Laravel but at the end I think I will go with Laravel since that is what is being used in Artscapy]

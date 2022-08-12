@@ -30,3 +30,5 @@ php artisan db:seed
 ```
 php artisan serve
 ```
+
+and you can see the page if you go to http://127.0.0.1:8000/
